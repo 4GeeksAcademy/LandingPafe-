@@ -22,14 +22,14 @@ h1 {
 }
 
 .welcome-heading {
-  font-size: 3rem; /* Ajusta este valor para cambiar el tamaño del título */
+  font-size: 3rem; 
 }
 .welcome-text {
-  font-size: 1.25rem; /* Ajusta este valor para cambiar el tamaño del texto */
+  font-size: 1.25rem; 
 }
 .welcome-section {
   padding: 2rem;
-  background-color: #f8f9fa; /* Color de fondo similar al de la imagen */
+  background-color: #f8f9fa; 
 }
 
 
@@ -58,5 +58,39 @@ h1 {
 }
 
 
-/* cards */
+/* Nav Bar */
 
+
+.navbar {
+ 
+  background-color: #343a40;  
+  padding: 0.75rem 1rem;
+}
+
+
+.navbar .nav-link.active {
+  font-weight: bold;
+}
+
+
+.navbar-nav .nav-link {
+  margin-left: 15px;
+  color: #ffffff !important; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #dddddd !important;  
+}
+
+
+.navbar-nav .nav-link.disabled {
+  color: #6c757d !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
